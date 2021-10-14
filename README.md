@@ -12,5 +12,7 @@ Update log:
 ---
 - 11/10 - Hero section
 ---
+- 14/10 - Portfolio section
+
 
 

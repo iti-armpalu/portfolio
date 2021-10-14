@@ -9,4 +9,8 @@ Update log:
 - 09/10 - HTML, CSS and images folder setup
 ---
 - 10/10 - Navbar
+---
+- 11/10 - Hero section
+---
+
 

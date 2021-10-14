@@ -15,6 +15,11 @@ Update log:
 - 14/10 - Portfolio section
 - 14/10 - About section
 - 14/10 - Contact section
+- 14/10 - Footer section
+---
+
+End.
+
 
 
 

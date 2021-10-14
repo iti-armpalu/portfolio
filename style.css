@@ -126,7 +126,6 @@ a {
 
 .navbar-title:hover {
   color: #1a00ff;
-  opacity: 0.75;
 }
 
 .navbar-title-portfolio {
@@ -496,3 +495,22 @@ a {
 
 /* ----------------------- */
 
+/* Footer */
+
+.footer-inner {
+  color: #95a3a4;
+  font-size: 14px;
+  border-top: 1px solid #95a3a4;
+  padding: 24px 0;
+}
+
+footer a {
+  color: #95a3a4;
+  font-size: 24px;
+}
+
+footer a:hover {
+  color: #1a00ff;
+}
+
+/* ----------------------- */

@@ -41,6 +41,17 @@ a {
 
 /* ----------------------- */
 
+/* Aspect ratio boxes */
+
+.aspectRatioBox {
+  padding-top: calc(1 / 1 * 100%);
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+/* ----------------------- */
+
 /* Navbar */
 
 #navbar {
@@ -132,4 +143,83 @@ a {
 }  
 
 /* ----------------------- */
+
+/* Hero */
+
+.hero-wrap {
+  margin-top: 24px;
+}
+
+.hero-text-wrap {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.intro-wrap {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(90deg, rgba(26, 0, 255, 0.9) 50%, rgba(255,255,255,1) 100%);
+  border-image-slice: 1;
+}
+
+.intro-wrap p {
+  font-size: 14px;
+}
+
+.intro-wrap b {
+  color: #c300ff;
+}
+
+.name {
+  color: #c300ff;
+}
+
+.become-paragraph {
+  margin-top: 16px;
+}
+
+.become-paragraph a {
+  color: #c300ff;
+  text-decoration: underline;
+}
+
+.social-wrap {
+  margin-top: 24px;
+}
+
+.social-wrap p {
+  color: #95a3a4;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.social-wrap a {
+  font-size: 24px;
+}
+
+.social-wrap a:hover {
+  color: #1a00ff;
+}
+
+.social-wrap i {
+  margin-right: 28px;
+}
+
+@media (max-width: 992px) {
+  .hero-text-wrap {
+    margin-left: 36px;
+    margin-right: 36px;
+  } 
+
+  .intro-wrap h2 {
+    font-size: 28px;
+  }
+
+  .become-paragraph {
+    font-size: 16px;
+  }
+}
+
+/* ----------------------- */
+
 

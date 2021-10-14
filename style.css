@@ -50,6 +50,43 @@ a {
   background-position: center;
 }
 
+.aspectRatioBox-portfolio {
+  padding-top: calc(1 / 1 * 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ----------------------- */
+
+/* Row gutters */
+
+.custom-gutter > [class*='col-'] {
+  padding-right: 6px;
+  padding-left: 6px; 
+}
+
+/* ----------------------- */
+
+/* Section titles */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.section-title p {
+  color: #95a3a4;
+  font-size: 16px;
+}
+
+.section-title h2 {
+  margin-bottom: 0;
+}
+
+.section-title span {
+  color: #1a00ff;
+}
+
 /* ----------------------- */
 
 /* Navbar */
@@ -222,4 +259,64 @@ a {
 
 /* ----------------------- */
 
+/* Portfolio */
+
+.portfolio-wrap {
+  margin-top: 80px;
+  margin-bottom: 36px;
+  padding-top: 16px;
+}
+
+.portfolio-box {
+  position: relative;
+  background: linear-gradient(0deg, #0093E9 0%, #80D0C7 40%, #ffffff 100%);
+  margin-bottom: 24px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #fff;
+}
+
+.portfolio-box:hover .overlay {
+  opacity: 0.3;
+}
+
+.portfolio-box-inner {
+  padding: 24px;
+}
+
+.portfolio-box-title {
+  margin-bottom: 0;
+}
+
+.portfolio-lang {
+  margin-bottom: 24px;
+}
+
+.portfolio-html, .portfolio-css {
+  font-size: 11px;
+  padding: 0 4px;
+  border-radius: 12px;
+}
+
+.portfolio-html {
+  border: 1px solid #c300ff;
+  color: #c300ff;
+}
+
+.portfolio-css {
+  border: 1px solid #4B00C8;
+  color: #4B00C8;
+}
+
+/* ----------------------- */
 

@@ -62,6 +62,13 @@ a {
   background-position: center;
 }
 
+.aspectRatioBox-location {
+  padding-top: calc(1 / 2 * 100%);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #95a3a4;
+}
+
 /* ----------------------- */
 
 /* Row gutters */
@@ -385,6 +392,105 @@ a {
   
   .about-skills {
     margin-bottom: 36px;
+  }
+}
+
+/* ----------------------- */
+
+/* Contact */
+
+.background {
+  margin-top: 80px;
+  background-color: #f7f7f7;
+}
+
+.contact-wrap {
+  padding-top: 68px;
+  padding-bottom: 48px;
+}
+
+.contact-inner {
+  background-color: #f7f7f7;
+  padding: 24px 0;
+}
+
+.contact {
+  text-align: center;
+  background-color: #fff;
+  padding: 24px 12px;
+  height: 100%;
+}
+
+.contact h5 {
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.contact p {
+  font-size: 14px;
+}
+
+.contact-email, .contact-social {
+  margin-top: 24px;
+}
+
+.contact-email h6, .contact-social h6 {
+  margin-bottom: 0px;
+}
+
+.contact-email i, .contact-social i {
+  font-size: 24px;
+  color: #95a3a4;
+  margin-bottom: 12px;
+}
+
+.contact-social-icons i {
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 12px;
+  font-size: 24px;
+}
+
+.contact-email a:hover {
+  color: #1a00ff;
+  text-decoration: none;
+}
+
+.contact-social-icons a i:hover {
+  color: #1a00ff;
+}
+
+.send-message {
+  margin: 0 16px;
+}
+
+.send-message-field input, .send-message-field textarea {
+  width: 100%;
+  border: 1px solid #95a3a4;
+}
+
+.send-message-button {
+  background-color: #1a00ff;
+  color: #fff;
+  margin-top: 12px;
+}
+
+.send-message-button:hover {
+  background-color: #0d0088;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .contact-column {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .contact-wrap {
+    padding-top: 80px;
   }
 }
 

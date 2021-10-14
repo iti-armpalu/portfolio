@@ -56,6 +56,12 @@ a {
   background-position: center;
 }
 
+.aspectRatioBox-image {
+  padding-top: calc(1 / 1 * 100%);
+  background-size: cover;
+  background-position: center;
+}
+
 /* ----------------------- */
 
 /* Row gutters */
@@ -316,6 +322,70 @@ a {
 .portfolio-css {
   border: 1px solid #4B00C8;
   color: #4B00C8;
+}
+
+/* ----------------------- */
+
+/* About */
+
+.about-wrap {
+  margin-top: 80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.about-intro h5, .about-skills h5 {
+  font-size: 18px;
+}
+
+.about-intro {
+  text-align: end;
+  margin-left: 40px;
+}
+
+.about-intro h6 {
+  color: #95a3a4;
+}
+
+.about-intro p {
+  font-size: 14px;
+}
+
+.about-image {
+  border: 1px solid;
+  border-image: linear-gradient(90deg, rgba(26, 0, 255, 0.9) 50%, rgba(255,255,255,1) 100%);
+  border-image-slice: 1;
+}
+
+.skill {
+  margin-top: 22px;
+}
+
+.skill-percentage {
+  color: #95a3a4;
+}
+
+.progress-bar-bg {
+  background-color: #1a00ff;
+}
+
+@media (max-width: 992px) {
+  .skill {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-intro {
+    text-align: start;
+    margin-left: 0;
+    margin-right: 80px;
+    margin-bottom: 36px;
+  }
+  
+  .about-skills {
+    margin-bottom: 36px;
+  }
 }
 
 /* ----------------------- */
